@@ -2,8 +2,9 @@
   "name": "classic-ace-cobalt-theme",
   "displayName": "Classic Ace Cobalt Theme",
   "description": "A faithful reproduction of the classic Ace Cobalt theme with vibrant syntax highlighting",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "ichiwa",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -35,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ichiwa/classic-ace-cobalt-theme.git"
+    "url": "https://github.com/ichiwa/classic-cobalt-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/ichiwa/classic-ace-cobalt-theme/issues"
+    "url": "https://github.com/ichiwa/classic-cobalt-theme/issues"
   },
-  "homepage": "https://github.com/ichiwa/classic-ace-cobalt-theme#readme",
+  "homepage": "https://github.com/ichiwa/classic-cobalt-theme#readme",
   "license": "MIT",
   "scripts": {
     "build": "vsce package",

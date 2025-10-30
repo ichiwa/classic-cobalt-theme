@@ -4,7 +4,7 @@ A faithful reproduction of the classic Ace Cobalt theme for Visual Studio Code. 
 
 ## Screenshots
 
-![Classic Ace Cobalt Theme - Code Sample](images/img.png)
+![Classic Ace Cobalt Theme - Code Sample](https://raw.githubusercontent.com/ichiwa/classic-cobalt-theme/refs/heads/main/images/img.png)
 
 ## Contributing
 
