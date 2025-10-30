@@ -1,0 +1,7 @@
+.vscode
+.vscodeignore
+**/*.map
+**/*.vsix
+.gitignore
+images/SCREENSHOT_INSTRUCTIONS.md
+ICON_INSTRUCTIONS.md

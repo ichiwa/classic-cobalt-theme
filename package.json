@@ -2,7 +2,7 @@
   "name": "classic-ace-cobalt-theme",
   "displayName": "Classic Ace Cobalt Theme",
   "description": "A faithful reproduction of the classic Ace Cobalt theme with vibrant syntax highlighting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "ichiwa",
   "engines": {
     "vscode": "^1.74.0"
@@ -17,6 +17,7 @@
     "ace",
     "classic",
     "blue",
+    "cursor",
     "syntax highlighting"
   ],
   "galleryBanner": {
@@ -40,5 +41,10 @@
     "url": "https://github.com/ichiwa/classic-ace-cobalt-theme/issues"
   },
   "homepage": "https://github.com/ichiwa/classic-ace-cobalt-theme#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "vsce package",
+    "package": "vsce package",
+    "install-local": "code --install-extension classic-ace-cobalt-theme-*.vsix"
+  }
 }

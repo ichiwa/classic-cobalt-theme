@@ -146,7 +146,7 @@
         "keyword.control.flow.yield"
       ],
       "settings": {
-        "foreground": "#ff9800"
+        "foreground": "#ff9d02"
       }
     },
     {
@@ -160,16 +160,57 @@
       "name": "Operator, Misc",
       "scope": [
         "constant.other.color",
-        "punctuation",
-        "meta.tag",
-        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#ad742e"
+      }
+    },
+    {
+      "name": "General Punctuation",
+      "scope": [
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor",
+        "punctuation.bracket",
+        "punctuation.brace",
+        "punctuation.parenthesis"
+      ],
+      "settings": {
+        "foreground": "#ffcc00"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "source.js keyword.operator - string",
+        "source.ts keyword.operator - string",
+        "source.tsx keyword.operator - string",
+        "source.jsx keyword.operator - string",
+        "keyword.operator.assignment - string",
+        "keyword.operator.arithmetic - string",
+        "keyword.operator.comparison - string",
+        "keyword.operator.logical - string",
+        "keyword.operator.bitwise - string"
+      ],
+      "settings": {
+        "foreground": "#ffcc00"
+      }
+    },
+    {
+      "name": "Arrow Functions",
+      "scope": [
+        "storage.type.function.arrow - string",
+        "keyword.operator.arrow - string",
+        "punctuation.definition.arrow - string",
+        "meta.arrow - string",
+        "source.js keyword.operator.arrow - string",
+        "source.ts keyword.operator.arrow - string",
+        "source.tsx keyword.operator.arrow - string",
+        "source.jsx keyword.operator.arrow - string"
       ],
       "settings": {
         "foreground": "#ffcc00"
@@ -183,7 +224,39 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#ff9800"
+        "foreground": "#8de7ea"
+      }
+    },
+    {
+      "name": "JSX/TSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "entity.name.tag.ts",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "support.class.component.js",
+        "support.class.component.ts",
+        "support.class.component.tsx",
+        "support.class.component.jsx"
+      ],
+      "settings": {
+        "foreground": "#8de7ea"
+      }
+    },
+    {
+      "name": "HTML/JSX Tag Brackets",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#8de7ea"
       }
     },
     {
@@ -244,19 +317,122 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#fc628b"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.numeric.octal",
+        "constant.numeric.binary",
+        "constant.numeric.decimal"
+      ],
+      "settings": {
+        "foreground": "#fc628b"
       }
     },
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
+        "string keyword.operator",
+        "string punctuation.operator",
+        "string meta.embedded",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "String Quotes and Delimiters",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "string.quoted.single punctuation.definition.string",
+        "string.quoted.double punctuation.definition.string",
+        "string.template punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "Template Literals & CSS-in-JS",
+      "scope": [
+        "string.template",
+        "string.quoted.template",
+        "meta.template.expression",
+        "meta.embedded.line.tag",
+        "string.template.js",
+        "string.template.ts",
+        "string.template.tsx",
+        "string.template.jsx",
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded",
+        "string.template punctuation",
+        "string.template keyword.operator",
+        "string.template meta.brace",
+        "meta.template.expression punctuation",
+        "meta.template.expression keyword.operator",
+        "meta.template.expression meta.arrow",
+        "string.template meta.arrow"
+      ],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "Styled Components Template Expressions",
+      "scope": [
+        "meta.template.expression.js",
+        "meta.template.expression.ts",
+        "meta.template.expression.tsx",
+        "meta.template.expression.jsx",
+        "meta.template.expression.js punctuation",
+        "meta.template.expression.ts punctuation",
+        "meta.template.expression.tsx punctuation",
+        "meta.template.expression.jsx punctuation",
+        "meta.template.expression.js keyword.operator.arrow",
+        "meta.template.expression.ts keyword.operator.arrow",
+        "meta.template.expression.tsx keyword.operator.arrow",
+        "meta.template.expression.jsx keyword.operator.arrow"
+      ],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "CSS Properties in Template Literals",
+      "scope": [
+        "meta.property-name.css",
+        "support.type.property-name.css",
+        "meta.template.expression support.type.property-name",
+        "string.template support.type.property-name",
+        "source.css-in-js support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "CSS Values in Template Literals",
+      "scope": [
+        "meta.property-value.css",
+        "support.constant.property-value.css",
+        "string.template meta.property-value",
+        "meta.template.expression meta.property-value"
       ],
       "settings": {
         "foreground": "#3ad900"
@@ -293,7 +469,9 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+        "meta.template.expression support.type.property-name.css",
+        "string.template support.type.property-name.css"
       ],
       "settings": {
         "foreground": "#80ffbb"
@@ -419,6 +597,20 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#80ffbb"
+      }
+    },
+    {
+      "name": "Arrow Function Operator",
+      "scope": [
+        "keyword.operator.arrow.function",
+        "punctuation.definition.arrow.function",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.jsx"
+      ],
+      "settings": {
+        "foreground": "#ffcc00"
       }
     },
     {
