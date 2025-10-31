@@ -2,7 +2,7 @@
   "name": "classic-ace-cobalt-theme",
   "displayName": "Classic Ace Cobalt Theme",
   "description": "A faithful reproduction of the classic Ace Cobalt theme with vibrant syntax highlighting",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "ichiwa",
   "icon": "images/icon.png",
   "engines": {
