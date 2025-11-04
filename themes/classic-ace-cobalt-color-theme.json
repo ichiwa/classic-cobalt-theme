@@ -78,9 +78,20 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
+        "variable.other.constant.tsx",
+        "variable.other.constant.jsx",
+        "variable.other.constant.ts",
+        "variable.other.constant.js",
+        "meta.definition.variable.tsx",
+        "meta.definition.variable.jsx",
+        "meta.definition.variable.ts",
+        "meta.definition.variable.js"
+      ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ffb054"
       }
     },
     {
